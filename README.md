@@ -15,9 +15,9 @@ This repository contains my React playground, notes, experiments, and small proj
 * [ ] What is React?
 * [ ] Vite
 * [ ] Project structure
-* [ ] Components
+* [x] Components
 * [ ] JSX
-* [ ] Props
+* [x] Props
 * [ ] State
 * [ ] Event handling
 * [ ] Conditional rendering
