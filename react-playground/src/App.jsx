@@ -1,14 +1,15 @@
-import Profile from './components/Profile';
+import Profile from './components/Profile.jsx';
+import './App.css';
 
-function App() {
-
+function App(){
   return(
-    <div className="intro">
-      <h3>React Playground</h3>
-      <Profile name ="Lei Justine Clemente"
-               role= "Backend Developer"/>
+    <div className='container'>
+      <h3>Profile Card</h3>
+      <Profile avatarUrl="/OnePunch1.webp"
+               name="Saitama"
+              />
     </div>
   );
 }
 
-export default App
+export default App;
