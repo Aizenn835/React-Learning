@@ -1,6 +1,7 @@
 import Intro from './components/intro/intro.jsx'
 
-/* Profile here is an example of a component then i pass some values to
+/*
+   Intro here is an example of a component then i pass some values to
    the parameter of the Intro component or so called props.
 */
 function App() {
