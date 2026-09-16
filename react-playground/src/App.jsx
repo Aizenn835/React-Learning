@@ -1,14 +1,14 @@
-import { useState } from 'react'
-import heroImg from './assets/hero.png'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import './App.css'
+import Profile from './components/Profile';
 
 function App() {
- 
+
   return(
-    <h3>Lei Justine Clemente</h3>
-  )
+    <div className="intro">
+      <h3>React Playground</h3>
+      <Profile name ="Lei Justine Clemente"
+               role= "Backend Developer"/>
+    </div>
+  );
 }
 
 export default App
