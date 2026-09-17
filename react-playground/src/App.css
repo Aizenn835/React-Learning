@@ -6,3 +6,6 @@
     flex-direction: column;
     height: 70vh;
 }
+.container h3{
+    font-family: 'DM Sans', sans-serif;
+}

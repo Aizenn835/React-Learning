@@ -5,7 +5,7 @@ function App(){
   return(
     <div className='container'>
       <h3>Profile Card</h3>
-      <Profile avatarUrl="/OnePunch1.webp"
+      <Profile avatarUrl="/image.png"
                name="Saitama"
               />
     </div>
