@@ -27,7 +27,7 @@ This repository contains my React playground, notes, experiments, and small proj
 ### 02 — React Hooks
 
 * [ ] `useState`
-* [ ] `useEffect`
+* [x] `useEffect`
 * [ ] `useRef`
 * [ ] `useContext`
 * [ ] Custom Hooks
