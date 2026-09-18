@@ -1,11 +1,6 @@
-
-.container{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    height: 70vh;
-}
-.container h3{
-    font-family: 'DM Sans', sans-serif;
+.login-container {
+    margin: 100px auto;
+    width: 100%;
+    max-width: 1000px;   
+    display: flex;
 }

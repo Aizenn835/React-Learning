@@ -1,0 +1,15 @@
+
+.form-container {
+    flex: 1;
+    padding: 40px;
+    box-sizing: border-box;
+    background-color: #10203f;
+    border-radius: 0 12px 12px 0;
+}
+.form-header{
+    color:white;
+}
+.account-question{
+    color:gray;
+    font-size:0.75rem;
+}

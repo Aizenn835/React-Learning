@@ -1,15 +1,12 @@
-import Profile from './components/Profile.jsx';
+import AuthImagePanel from './components/AuthImagePanel.jsx';
+import LoginForm from './components/Form.jsx';
 import './App.css';
 
-function App(){
+export default function App(){
   return(
-    <div className='container'>
-      <h3>Profile Card</h3>
-      <Profile avatarUrl="/image.png"
-               name="Saitama"
-              />
+    <div className='login-container'>
+      <AuthImagePanel/>
+      <LoginForm />
     </div>
-  );
+  )
 }
-
-export default App;

@@ -11,7 +11,6 @@ function Intro({name , age , course}){
     const handleLike = () => {
         setLikes(likes + 1);
     }
-    
     /* 
     useEffect is a built-in React hook that lets you synchronize your component with external systems. 
     It runs code after the component renders on the screen, making it the primary tool for side effects that
