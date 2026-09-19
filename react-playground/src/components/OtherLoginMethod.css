@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.inner-container{
+    width: 40%;
+    border:1px solid rgb(209, 203, 203);
+    padding:10px 12px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    border-radius: 5px;
+    cursor: pointer;
+}

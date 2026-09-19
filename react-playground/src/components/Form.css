@@ -1,15 +1,66 @@
+:root{
+    --font-color:#10203f; 
+}
 
 .form-container {
     flex: 1;
-    padding: 40px;
+    padding: 55px 50px;
     box-sizing: border-box;
-    background-color: #10203f;
     border-radius: 0 12px 12px 0;
+    display:flex;
+    flex-direction: column; 
+    background-color: #fff;
 }
 .form-header{
-    color:white;
+    color:var(--font-color);
+}
+.login-underline{
+    text-decoration: underline;
+    cursor: pointer;
 }
 .account-question{
     color:gray;
     font-size:0.75rem;
+}
+.grid-input{
+    display:flex;
+    gap:12px;
+    margin-top:40px;
+}
+.input-field{
+    display:flex;
+    flex-direction: column;
+    gap:12px;
+    justify-content: center;
+    width: 100%;
+}
+.terms-container{
+    display:flex;
+    gap:12px;
+    align-items: center;
+}
+.terms-condition{
+    font-size:0.75rem;
+}
+.checkbox{
+    accent-color: #284f9d;
+}
+.underline-terms{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.or-divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.line {
+  flex: 1;
+  height: 1px;
+  background-color: #d1d5db; 
+}
+
+.or-divider span {
+  color: #6b7280;
+  font-size: 12px;
 }

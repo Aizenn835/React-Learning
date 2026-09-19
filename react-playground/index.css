@@ -2,10 +2,16 @@ body {
     margin: 0;             
     padding: 0;
     box-sizing: border-box; 
-    font-family: 'Inter', sans-serif; 
+    font-family: 'Plus Jakarta Sans', sans-serif;
     line-height: 1.5;    
-    min-height: 100vh;    
+    min-height: 20vh;    
     -webkit-font-smoothing: antialiased;
+    background-image: url('./src/assets/background-img.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
 }
 *{
     padding:0;

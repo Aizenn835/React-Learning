@@ -1,10 +1,51 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
 .login-logo {
-    width: 100%;      
-    height: 100%;
-    object-fit: cover;
+    width: 40%;      
+    height: 40vh;   
+    object-fit: contain;
     display: block;
-    border-radius: 12px 0 0 12px;
+    height: 60vh;
 }
 .auth-image-panel{
     flex:1;
+    background-color: #10203f;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px 0 0 12px;
+    position:relative;
+    height: auto;
+}
+.auth-overlay{
+    position: absolute;
+    left:10%;
+    bottom: 5%;
+}
+.auth-overlay{
+    user-select: none;
+}
+.auth-header-text{
+    color:#91b2d1;
+    position: absolute;
+    left:10%;
+    top:10%;
+}
+.overlay-header{
+    color:#fff;
+}
+.supporting-text{
+    color:gray;
+    font-size:0.925rem;
+    margin-bottom: 12px;
+}
+.ratings{
+    color:#ded9d9;
+    font-size:0.825rem;
+}
+.ratings i {
+    color:rgb(89, 209, 227)
 }
